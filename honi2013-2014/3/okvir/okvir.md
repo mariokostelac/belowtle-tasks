@@ -1,0 +1,76 @@
+#Okvir
+
+Timelimit: **1s** Memory limit: **32MB**
+
+Mirko has assembled an excellent crossword puzzle and now he wants to
+frame it. Mirko's crossword puzzle consists of **M** x **N** letters,
+and the frame around it should be **U** characters wide on top, **L**
+characters on the left, **R** characters on the right and **D**
+characters on the bottom side.
+
+The frame consists of characters \# (hash) and . (dot) which alternate
+like fields on a chessboard. These characters should be arranged in a
+way that, if the frame is expanded to cover the entire crossword puzzle
+and we treat these characters as a chessboard, the \# characters should
+be placed as the red fields on a chessboard (i.e. the top left field).
+See the examples below for a better understanding of the task.
+
+### Input
+> The first line of input contains two integers **M** and **N** (1 ≤
+> **M**, **N** ≤ 10).
+>
+> The second line of input contains integers **U**, **L**, **R**, **D** (0
+> ≤ **U**, **L**, **R**, **D** ≤ 5).
+>
+> The following **M** lines of input contains **N** characters – lowercase
+> letters of the English alphabet. These lines represent Mirko's crossword
+> puzzle.
+
+### Output
+> Output the framed crossword puzzle as stated in the text.
+
+### Sample Tests
+_input_
+
+```
+4 4
+2 2 2 2
+honi
+oker
+nera
+irak
+```
+
+_output_
+
+```            
+#.#.#.#.            
+.#.#.#.#            
+#.honi#.              
+.#oker.#              
+#.nera#.              
+.#irak.#              
+#.#.#.#.            
+.#.#.#.#
+```
+
+---
+
+
+_input_
+
+```
+2 4
+1 0 3 1
+rima
+mama
+```
+
+_output_
+
+```
+#.#.#.#
+rima.#.
+mama#.#
+.#.#.#.
+```
