@@ -2,7 +2,9 @@
 
 Timelimit: **3s** Memory limit: **64MB**
 
-Organizing CS contests didn't prove very lucrative for Mirko, so he has
+*Task is originally from http://hsin.hr/coci/archive/2013_2014/contest1_tasks.pdf*
+
+Organising CS contests didn't prove very lucrative for Mirko, so he has
 opened an ice cream and pastry shop. The business was flourishing until,
 one day, the European Union health inspection decided to pay him a
 visit.

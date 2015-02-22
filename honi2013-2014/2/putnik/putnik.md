@@ -2,6 +2,8 @@
 
 Timelimit: **1s** Memory limit: **32MB**
 
+*Task is originally from http://hsin.hr/coci/archive/2013_2014/contest2_tasks.pdf*
+
 Chances are that you have probably already heard of the travelling
 salesman problem. If you have, then you are aware that it is an NP-hard
 problem because it lacks an efficient solution. Well, this task is an

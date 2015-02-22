@@ -2,6 +2,8 @@
 
 Timelimit: **1s** Memory limit: **32MB**
 
+*Task is originally from http://hsin.hr/coci/archive/2013_2014/contest2_tasks.pdf*
+
 Little Marin spent all his day generating test data for COCI. He simply
 couldn't make it work, so he had a nervous breakdown and can't even see
 clearly anymore. Every time he blinks while reading, the letters in a

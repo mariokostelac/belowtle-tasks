@@ -2,6 +2,8 @@
 
 Timelimit: **1s** Memory limit: **32MB**
 
+*Task is originally from http://hsin.hr/coci/archive/2013_2014/contest1_tasks.pdf*
+
 After Mirko's failed stint as a coach and a passing obsession with
 Croatian meat delicacies, his weight problems have motivated him to work
 hard as a farmer. He has moved to a village where his friend Slavko

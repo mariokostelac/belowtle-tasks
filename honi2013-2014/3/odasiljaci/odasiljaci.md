@@ -2,6 +2,8 @@
 
 Timelimit: **1s** Memory limit: **32MB**
 
+*Task is originally from http://hsin.hr/coci/archive/2013_2014/contest3_tasks.pdf*
+
 The mayor has decided that it is high time to implement a new system of
 television transmitters. The city can be represented as **a segment of
 the length D** on which there are **buildings** of different heights.

@@ -2,6 +2,8 @@
 
 Timelimit: **1s** Memory limit: **32MB**
 
+*Task is originally from http://hsin.hr/coci/archive/2013_2014/contest3_tasks.pdf*
+
 One day, little Mirko came across a funny looking machine! It consisted
 of a **very very large** screen and a single button. When he found the
 machine, the screen displayed only the letter A. After he pressed the

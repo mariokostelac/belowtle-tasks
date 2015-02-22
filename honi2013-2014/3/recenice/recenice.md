@@ -2,6 +2,8 @@
 
 Timelimit: **1s** Memory limit: **32MB**
 
+*Task is originally from http://hsin.hr/coci/archive/2013_2014/contest3_tasks.pdf*
+
 Once upon a time in a land far far away, inhabited only by math
 students, Iva and Vedran were discussing self-explanatory sentences. A
 part of these sentences is exactly **one number** and it is **equal to

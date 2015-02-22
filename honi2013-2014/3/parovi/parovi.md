@@ -2,6 +2,8 @@
 
 Timelimit: **1s** Memory limit: **32MB**
 
+*Task is originally from http://hsin.hr/coci/archive/2013_2014/contest3_tasks.pdf*
+
 **The distance** between two integers is defined as **the sum of the
 absolute result of subtracting** their digits. For example, the distance
 between the numbers 4561 and 3278 is |4 – 3| + |5 - 2| + |6 - 7| + |1 -

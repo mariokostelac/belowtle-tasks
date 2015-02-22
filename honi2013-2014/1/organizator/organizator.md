@@ -2,9 +2,11 @@
 
 Timelimit: **1s** Memory limit: **32MB**
 
+*Task is originally from http://hsin.hr/coci/archive/2013_2014/contest1_tasks.pdf*
+
 Unexpected problems with law enforcement have convinced Mirko to take up
 a less lucrative but less morally ambiguous career: he has become the
-chief organizer of a team computer science contest.
+chief organiser of a team computer science contest.
 
 There are **N** CS clubs that wish to participate in the contest. The
 presidents of the clubs are quite stubborn and will participate in the

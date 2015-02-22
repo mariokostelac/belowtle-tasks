@@ -2,6 +2,8 @@
 
 Timelimit: **1s** Memory limit: **32MB**
 
+*Task is originally from http://hsin.hr/coci/archive/2013_2014/contest2_tasks.pdf*
+
 Little Mirko spends his free time painting. For this hobby, he likes to
 use brushes and a pallet containing **K** colors overall. His friend
 Slavko decided to use Mirko's talent and gave him his new coloring book

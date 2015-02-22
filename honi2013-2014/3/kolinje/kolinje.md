@@ -2,6 +2,8 @@
 
 Timelimit: **1s** Memory limit: **32MB**
 
+*Task is originally from http://hsin.hr/coci/archive/2013_2014/contest3_tasks.pdf*
+
 **WARNING**: checker for this task is not correct. If you are willing to write a checker for this task or if you found that any other checkers are not correct, please contact mario.kostelac@gmail.com
 
 Melita has just returned from the annual pig slaughter. Don't worry,

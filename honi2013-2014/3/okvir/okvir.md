@@ -2,6 +2,8 @@
 
 Timelimit: **1s** Memory limit: **32MB**
 
+*Task is originally from http://hsin.hr/coci/archive/2013_2014/contest3_tasks.pdf*
+
 Mirko has assembled an excellent crossword puzzle and now he wants to
 frame it. Mirko's crossword puzzle consists of **M** x **N** letters,
 and the frame around it should be **U** characters wide on top, **L**

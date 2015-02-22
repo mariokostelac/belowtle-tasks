@@ -2,6 +2,8 @@
 
 Timelimit: **1s** Memory limit: **32MB**
 
+*Task is originally from http://hsin.hr/coci/archive/2013_2014/contest1_tasks.pdf*
+
 The difficult economic situation in the country and reductions in
 government agricultural subsidy funding have caused Mirko to change his
 career again, this time to a thief. His first professional endeavour is

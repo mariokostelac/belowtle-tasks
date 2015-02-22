@@ -2,6 +2,8 @@
 
 Timelimit: **1s** Memory limit: **32MB**
 
+*Task is originally from http://hsin.hr/coci/archive/2013_2014/contest2_tasks.pdf*
+
 A nice part of the Roman Catholic Mass is the rite of peace when people
 shake hands with their neighbours and say "peace be with you". Mirko has
 found a way to turn this ritual into his own favor.

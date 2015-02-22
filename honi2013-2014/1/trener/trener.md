@@ -2,6 +2,8 @@
 
 Timelimit: **1s** Memory limit: **32MB**
 
+*Task is originally from http://hsin.hr/coci/archive/2013_2014/contest1_tasks.pdf*
+
 Mirko has been moving up in the world of basketball, starting as a mere
 spectator, mastering snack salesmanship, finally reach the coveted
 position of the national team coach. He is now facing a difficult task:

@@ -2,6 +2,8 @@
 
 Timelimit: **1s** Memory limit: **32MB**
 
+*Task is originally from http://hsin.hr/coci/archive/2013_2014/contest2_tasks.pdf*
+
 Mirko and his faithful friend Slavko got really bored one day. The
 result of their boredom is the creation of a new game! In the beginning
 of the game, they draw **N** points in a coordinate system. The players

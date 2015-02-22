@@ -2,6 +2,8 @@
 
 Timelimit: **1s** Memory limit: **32MB**
 
+*Task is originally from http://hsin.hr/coci/archive/2013_2014/contest1_tasks.pdf*
+
 Mirko has given up on the difficult coach job and switched to food
 tasting instead. Having skipped breakfast like a professional
 connoisseur, he is visiting a Croatian cured meat festival. The most

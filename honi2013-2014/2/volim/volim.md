@@ -2,6 +2,8 @@
 
 Timelimit: **1s** Memory limit: **32MB**
 
+*Task is originally from http://hsin.hr/coci/archive/2013_2014/contest2_tasks.pdf*
+
 Croatia's national television programme is broadcasting an entertainment
 show titled "I Love Croatia", modeled on the licensed format *I love my
 country*. In this show two teams of celebrities and public figures play
@@ -9,8 +11,9 @@ various games which require knowledge about Croatia. One of the games is
 *Happy Birthday,* which will be used in this task, although somewhat
 altered.
 
+![](/_static/img/tasks/volim.png)
 Eight players numbered one through eight are seated in a circle (see
-picture). One of ![](/_static/img/tasks/volim.png)them is holding a box which will
+picture). One of them is holding a box which will
 explode after 3 minutes and 30 seconds **from the beginning of the
 game** when some colorful confetti will be blown out. The game begins
 with a question to the player holding the box. If the players **answers
