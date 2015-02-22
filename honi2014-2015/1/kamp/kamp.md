@@ -1,4 +1,4 @@
-#Kamp
+# Kamp
 
 *(Original task can be found in pdf on http://hsin.hr/coci/contest1_tasks.pdf)*
 

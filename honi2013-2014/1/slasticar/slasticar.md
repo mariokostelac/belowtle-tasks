@@ -1,4 +1,4 @@
-#Slasticar
+# Slasticar
 
 Timelimit: **3s** Memory limit: **64MB**
 

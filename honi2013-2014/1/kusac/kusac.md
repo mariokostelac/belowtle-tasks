@@ -1,4 +1,4 @@
-#Kusac
+# Kusac
 
 Timelimit: **1s** Memory limit: **32MB**
 
