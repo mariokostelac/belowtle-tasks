@@ -34,9 +34,9 @@ every city exactly once, so that his peculiar request is fulfilled.
 > 1500), the number of cities.
 >
 > Each of the following **N** lines contains **N** positive integers from
-> the interval [0, 1000]. The number in **B**^th^ place in the **A**^th^
+> the interval [0, 1000]. The number in **B**-th place in the **A**-th
 > row represents the flight duration between cities **A** and **B**; that
-> number is equal to the **A**^th^ number in the **B**^th^ row. When **A**
+> number is equal to the **A**-th number in the **B**-th row. When **A**
 > = **B**, that number is 0. Otherwise, it is a positive value.
 
 ### Output
