@@ -1,5 +1,9 @@
 # Zgodan
 
+*(Original task can be found in pdf on http://hsin.hr/coci/contest5_tasks.pdf)*
+
+Timelimit: **1s** Memory limit: **32MB**.
+
 An integer is considered handsome if it has every two consecutive digits
 of different parity. For a given integer **N**, what is its closest
 handsome number? **Please note:** Numbers consisting of only one digit

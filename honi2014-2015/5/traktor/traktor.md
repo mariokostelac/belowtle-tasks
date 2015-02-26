@@ -1,5 +1,9 @@
 # Traktor
 
+*(Original task can be found in pdf on http://hsin.hr/coci/contest5_tasks.pdf)*
+
+Timelimit: **2s** Memory limit: **32MB**.
+
 Mirko got a supercool new tractor for Christmas that can even pick
 mushrooms! The mushrooms grow on a square-shaped meadow that can be
 placed in a coordinate plane so that its lower left edge is located at

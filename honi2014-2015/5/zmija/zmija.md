@@ -1,5 +1,9 @@
 # Zmija
 
+*(Original task can be found in pdf on http://hsin.hr/coci/contest5_tasks.pdf)*
+
+Timelimit: **1s** Memory limit: **32MB**.
+
 Mirko is making a copy of the popular computer game “Snake”. In the
 game, you control the movement of a snake on a screen with dimensions of
 **R * S** pixels. The objective of the game is to collect all the

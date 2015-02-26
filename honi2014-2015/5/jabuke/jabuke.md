@@ -1,5 +1,9 @@
 # Jabuke
 
+*(Original task can be found in pdf on http://hsin.hr/coci/contest5_tasks.pdf)*
+
+Timelimit: **2s** Memory limit: **128MB**.
+
 It is often heard that the apple doesn’t fall far from the tree. But is
 that really so? The National Statistics Department has tracked the
 falling of apples in an orchard for **G** consecutive years. The orchard

@@ -1,5 +1,11 @@
 # Divljak
 
+*(Original task can be found in pdf on http://hsin.hr/coci/contest5_tasks.pdf)*
+
+Timelimit: **4s** Memory limit: **768MB**.
+
+** NOTE: we are sorry, but we are not in position to give you 768MB RAM**.
+
 Nowadays, there are a lot of unusual people. We won’t go into details,
 but instead focus on a certain type, to us personally the most
 interesting people. Of course, we’re talking about barbarians! There are

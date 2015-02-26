@@ -1,5 +1,9 @@
 # Funghi
 
+*(Original task can be found in pdf on http://hsin.hr/coci/contest5_tasks.pdf)*
+
+Timelimit: **1s** Memory limit: **32MB**.
+
 After having eaten all the cookies from the wicked witch’s house, Hansel
 and Gretel ordered a jumbo pizza. The pizza arrived shortly, cut into
 eight pieces. Hansel and Gretel are going to split the pizza in half so
