@@ -18,8 +18,7 @@ number of mushrooms Gretel can get**. The following image depicts the
 optimal division for the second test sample below (1. denotes the first
 slice given in the input data):
 
-_TODO: add image_
-![image](funghi/slika_en.pdf)
+![image](/_static/img/tasks/funghi.png)
 
 ### Input
 > Each of the eight lines of input contains the integer **S_**
