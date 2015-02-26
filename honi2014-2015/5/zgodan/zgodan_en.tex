@@ -1,0 +1,61 @@
+\renewcommand{\taskname}{ZGODAN}
+\renewcommand{\timelimit}{1 second}
+\renewcommand{\memorylimit}{32 MB}
+\renewcommand{\score}{120 points}
+
+An integer is considered handsome if it has every two consecutive digits of different parity.
+%Prirodan broj nazivamo zgodnim ako su mu svake dvije susjedne znamenke različite parnosti.
+For a given integer $N$, what is its closest handsome number?
+%Za dani prirodan broj $N$, koji je njemu najbliži zgodni broj?
+
+\textbf{Please note:} Numbers consisting of only one digit are handsome numbers. The distance of two numbers is the absolute value of their difference.
+%\textbf{Napomene:} Jednoznamenkasti brojevi su zgodni. Udaljenost dvaju brojeva apsolutna je vrijednost njihove razlike.
+
+\strut
+
+\naslov{input}
+
+The first and only line of input contains the integer $N$ that consists of a thousand digits at most and is not handsome.
+%U jedinome retku nalazi se prirodan broj $N$ koji ima najviše tisuću znamenaka i nije zgodan.
+
+\strut
+\naslov{output}
+
+The first and only line of output must contain the required closest handsome number. If two closest numbers exist, output both, separated by space.
+%U jedini redak ispišite traženi najbliži zgodni broj. Ako postoje dva najbliža broja, ispišite oba, odvojene razmakom.
+
+\strut
+\naslov{scoring}
+
+In test cases worth 56 points, it will hold $N < 10^9$.
+%U test podacima ukupno vrijednima 56 bodova vrijedit će $N < 10^9$.
+
+\strut
+
+\naslov{sample tests}
+
+\begin{center}
+\fontfamily{\ttdefault}
+\fontsize{10pt}{1em}
+\selectfont
+\begin{tabu}to 0.99\textwidth{|X[1]|X[1]|}
+\hline
+& \\ 
+\rowfont{\fontsize{10pt}{1em}\bfseries}
+input & input \\
+\verbatiminput{zgodan/zgodan.dummy.in.1} &
+\verbatiminput{zgodan/zgodan.dummy.in.2} \\
+\rowfont{\fontsize{10pt}{1em}\bfseries}
+output & output \\
+\verbatiminput{zgodan/zgodan.dummy.out.1} &
+\verbatiminput{zgodan/zgodan.dummy.out.2} \\
+\hline
+\end{tabu}
+\end{center}
+
+{
+\fontsize{10pt}{1em}
+\selectfont
+%\textbf{Pojašnjenje prvog primjera:} pojašnjenje pojašnjenje pojašnjenje \\
+%\textbf{Pojašnjenje drugog primjera:} pojašnjenje pojašnjenje pojašnjenje
+}

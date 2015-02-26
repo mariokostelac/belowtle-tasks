@@ -1,0 +1,73 @@
+\renewcommand{\taskname}{TRAKTOR}
+\renewcommand{\timelimit}{2 seconds}
+\renewcommand{\memorylimit}{32 MB}
+\renewcommand{\score}{100 points}
+
+Mirko got a supercool new tractor for Christmas that can even pick mushrooms! The mushrooms grow on a square-shaped meadow that can be placed in a coordinate plane so that its lower left edge is located at $(1, 1)$ and its upper right edge at $(10^5, 10^5)$.
+%Mirko je za Božić dobio novi super traktor kojim može brati gljive! Gljive rastu na livadi kvadratnog oblika koju možemo smjestiti u koordinatnu ravninu tako da joj je donji lijevi rub u točki $(1, 1)$ a gornji desni u točki $(10^5, 10^5)$.
+
+Initially, there are no mushrooms on the meadow, but in total $N$ will grow in a way that each second exactly one new mushroom grows on an empty space on the meadow.
+%U početnom trenutku na livadi nema gljiva, no narast će ih ukupno $N$ i to tako da svake sekunde naraste točno jedna nova na nekom praznom mjestu na livadi. 
+
+Economical Mirko wants to ride his tractor \emph{only once} and pick at least $K$ mushrooms. His ride begins at one of the points on the meadow and he can move only in directions parallel to its sides or diagonals.
+%Štedljivi Mirko želi \emph{samo jednom} vožnjom traktora ubrati barem $K$ gljiva. Svoj put započinje u jednoj od točaka livade i može voziti samo paralelno njenim stranicama ili dijagonalama.
+Mirko's tractor is super fast and \textbf{travels great distances in negligible time}. Because of the enormous speed, Mirko \emph{can't make turns} during the ride.
+%Mirkov traktor je super brz, proizvoljno veliku udaljenost prelazi u zanemarivom vremenu. Zbog silne brzine, Mirko \emph{ne može skretati} za vrijeme vožnje.
+
+Help Mirko and determine \textbf{the minimal number of seconds} after which he can pick the wanted number of mushrooms.
+%Pomozite Mirku i odredite \textbf{najmanji broj sekundi} nakon kojih može ubrati željeni broj gljiva.
+
+\strut
+
+\naslov{input}
+
+The first line of input contains the integers $N$ ($2 \leqslant N \leqslant 10^6$) and $K$ ($2 \leqslant K \leqslant N$), the number of mushrooms that will grow and the number of mushrooms Mirko wants to pick.
+%U prvom retku nalaze se prirodni brojevi $N$ ($2 \leqslant N \leqslant 10^6$) i $K$ ($2 \leqslant K \leqslant N$), broj gljiva koje će izrasti i broj gljiva koji Mirko želi ubrati.
+
+Each of the following $N$ lines contains two integers $X_i$ and $Y_i$ ($1 \leqslant X_i, Y_i \leqslant 10^5$), the coordinates of the $i$\textsuperscript{th} mushroom grown on that meadow.
+%U sljedećih $N$ redaka nalaze se po dva prirodna broja $X_i$ i $Y_i$ ($1 \leqslant X_i, Y_i \leqslant 10^5$), koordinate $i$-te gljive koja je narasla na livadi.
+
+\naslov{output}
+
+The first and only line of output must contain the required minimal number of seconds.
+If Mirko can't pick $K$ mushrooms in one ride, output -1.
+%U jedini redak ispišite traženi najmanji broj sekundi.
+%Ako Mirko ne može ubrati $K$ gljiva jednom vožnjom, ispišite -1.
+
+\naslov{scoring}
+
+In test cases worth 50\% of total points, it will hold $1 \leqslant X_i, Y_i \leqslant 300$.
+%U test podacima vrijednima ukupno 50\% bodova vrijedit će $1 \leqslant X_i, Y_i \leqslant 300$.
+
+\strut
+
+\naslov{sample tests}
+
+\begin{center}
+\fontfamily{\ttdefault}
+\fontsize{10pt}{1em}
+\selectfont
+\begin{tabu}to 0.99\textwidth{|X[1]|X[1]|X[1]|}
+\hline
+& & \\ 
+\rowfont{\fontsize{10pt}{1em}\bfseries}
+input & input & input\\
+\verbatiminput{traktor/traktor.dummy.in.1} &
+\verbatiminput{traktor/traktor.dummy.in.2} & 
+\verbatiminput{traktor/traktor.dummy.in.3} \\
+\rowfont{\fontsize{10pt}{1em}\bfseries}
+output & output & output\\
+\verbatiminput{traktor/traktor.dummy.out.1} &
+\verbatiminput{traktor/traktor.dummy.out.2} & 
+\verbatiminput{traktor/traktor.dummy.out.3} \\
+\hline
+\end{tabu}
+\end{center}
+
+{
+\fontsize{10pt}{1em}
+\selectfont
+\textbf{Clarification of the first example:} Mirko begins his ride at point $(1, 2)$ and moves towards the mushroom located at $(4, 5)$. \\
+%Mirko svoju vožnju započinje u točki $(1, 2)$ i kreće se prema gljivi s koordinatama $(4, 5)$. \\
+%\textbf{Pojašnjenje drugog primjera:} pojašnjenje pojašnjenje pojašnjenje
+}

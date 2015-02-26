@@ -1,0 +1,62 @@
+\renewcommand{\taskname}{FUNGHI}
+\renewcommand{\timelimit}{1 second}
+\renewcommand{\memorylimit}{32 MB}
+\renewcommand{\score}{50 points}
+
+After having eaten all the cookies from the wicked witch's house, Hansel and Gretel ordered a jumbo pizza. The pizza arrived shortly, cut into eight pieces. Hansel and Gretel are going to split the pizza in half so that each of them gets a complete pizza "half-circle" or, in other words, four consecutive pieces.
+%Nakon što su pojeli sve kolačiće s vještičine kuće, Ivica i Marica naručili su jumbo pizzu. Pizza je uskoro stigla, narezana na osam komada. Ivica i Marica pizzu će podijeliti popola tako da svatko od njih dobije jedan cijeli "polukrug" pizze, tj. četiri uzastopna komada.
+
+Gretel really likes mushrooms and wants to get as many as she can. Given the fact that some pizza slices contain less and some more mushrooms, Gretel has asked Hansel to split the pizza so that her pieces contain as many mushrooms as possible.
+%Marica jako voli šampinjone i želi ih dobiti što više. Budući da se na nekim komadima pizze nalazi manje, a na nekima više šampinjona, Marica je zamolila Ivicu da pizzu podijele tako da se na njezinim komadima nađe što više šampinjona.
+
+Help Hansel and Gretel! They will tell you how many mushrooms there are on each of the eight pizza slices, and your job is to find \textbf{the largest total number of mushrooms Gretel can get}. The following image depicts the optimal division for the second test sample below (1. denotes the first slice given in the input data):
+%Pomozite Ivici i Marici! Oni će vam reći koliko se šampinjona nalazi na svakom od osam komada pizze, a vi pronađite \textbf{najveći ukupan broj šampinjona koji Marica može dobiti}. Sljedeća slika prikazuje najbolju podjelu za drugi test primjer niže (brojem 1. označen je prvi komad naveden u ulaznim podacima):
+
+\begin{center}
+\includegraphics[width=.4\linewidth]{funghi/slika_en.pdf}
+\end{center}
+
+\strut
+
+\naslov{input}
+
+Each of the eight lines of input contains the integer $\check{S}_i$ ($0 \leqslant \check{S}_i \leqslant 50$, $i = 1, 2, \ldots, 8$). These numbers are, respectively, the amount of mushrooms on pizza slices, where the slices are given in clockwise order.
+%U osam redaka nalazi se po jedan cijeli broj $\check{S}_i$ ($0 \leqslant \check{S}_i \leqslant 50$, $i = 1, 2, \ldots, 8$).
+%Ovi su brojevi količine šampinjona na komadima pizze, pri čemu su komadi dani redom u smjeru kazaljke na satu.
+
+\strut
+
+\naslov{output}
+
+The first and only line of output must contain the required number.
+%U jedini redak ispišite traženi broj iz teksta zadatka.
+
+\strut
+
+\naslov{sample tests}
+
+\begin{center}
+\fontfamily{\ttdefault}
+\fontsize{10pt}{1em}
+\selectfont
+\begin{tabu}to 0.99\textwidth{|X[1]|X[1]|}
+\hline
+& \\ 
+\rowfont{\fontsize{10pt}{1em}\bfseries}
+input & input \\
+\verbatiminput{funghi/funghi.dummy.in.1} & 
+\verbatiminput{funghi/funghi.dummy.in.2} \\
+\rowfont{\fontsize{10pt}{1em}\bfseries}
+output & output \\
+\verbatiminput{funghi/funghi.dummy.out.1} & 
+\verbatiminput{funghi/funghi.dummy.out.2} \\
+\hline
+\end{tabu}
+\end{center}
+
+{
+\fontsize{10pt}{1em}
+\selectfont
+%\textbf{Pojašnjenje prvog primjera:} pojašnjenje pojašnjenje pojašnjenje \\
+%\textbf{Pojašnjenje drugog primjera:} pojašnjenje pojašnjenje pojašnjenje
+}

@@ -1,0 +1,71 @@
+\renewcommand{\taskname}{JABUKE}
+\renewcommand{\timelimit}{2 sekunde}
+\renewcommand{\memorylimit}{128 MB}
+\renewcommand{\score}{140 bodova}
+
+Često čujemo ljude kako govore da jabuka ne pada daleko od stabla. No je li to stvarno istina? 
+
+Državni zavod za statistiku (DZS) $G$ uzastopnih godina pratio je padanje jabuka u jednom voćnjaku. Taj voćnjak možemo prikazati kao $R \cdot S$ matricu. U svakom polju matrice može se nalaziti više stabala jabuka.
+
+Zanimljivo, svake godine pala je točno jedna jabuka pa su u zavodu zapisali $G$ parova brojeva $(r_i, s_i)$ koji označavaju redak i stupac mjesta na koje je pala jabuka $i$-te godine. Također, na tom je mjestu \textbf{do iduće godine} niknulo novo stablo.
+
+Vaš je zadatak za svaku jabuku koja je pala odrediti kvadrat udaljenosti do najbližeg stabla jabuke mjerenu u jediničnim poljima matrice (pretpostavljamo da je to stablo s kojeg je jabuka pala).
+
+Udaljenost između polja $(r_1, s_1)$ i $(r_2, s_2)$ u matrici računamo kao:
+\[ d((r_1, s_1), (r_2, s_2)) = \sqrt{(r_1-r_2)^2 + (s_1-s_2)^2} \]
+
+\strut
+
+\naslov{ulazni podaci}
+
+U prvom retku nalaze se dva prirodna broja, $R$ i $S$ ($1 \leqslant R, S \leqslant 500$), broj redaka i stupaca matrice.
+
+U idućih $R$ redaka nalazi se $S$ znakova 'x' ili '.'.  Znak '.' označava prazno polje, a znak 'x' polje na kojem se nalazi jedno stablo.
+
+U voćnjaku će se na početku nalaziti barem jedno stablo.
+
+Nakon toga slijedi prirodan broj $G$ ($1 \leqslant G \leqslant 10^5$), broj godina u kojima je voćnjak promatran.
+
+Idućih $G$ redova opisuje padove jabuka. U svakom retku nalazi se jedan par prirodnih brojeva $(r_i, s_i)$ koji predstavljaju redak i stupac u koji je pala jabuka $i$-te godine. 
+
+\strut
+
+\naslov{izlazni podaci}
+
+Ispišite $G$ brojeva, tražene kvadrate udaljenosti iz teksta zadatka, svaki u svom retku.
+
+\strut
+
+\naslov{bodovanje}
+
+U test podacima ukupno vrijednima 30\% bodova vrijedit će $G \leqslant 500$.
+
+\pagebreak
+
+\naslov{primjeri test podataka}
+
+\begin{center}
+\fontfamily{\ttdefault}
+\fontsize{10pt}{1em}
+\selectfont
+\begin{tabu}to 0.99\textwidth{|X[1]|X[1]|}
+\hline
+& \\ 
+\rowfont{\fontsize{10pt}{1em}\bfseries}
+ulaz & ulaz \\
+\verbatiminput{jabuke/jabuke.dummy.in.1} &
+\verbatiminput{jabuke/jabuke.dummy.in.2} \\
+\rowfont{\fontsize{10pt}{1em}\bfseries}
+izlaz & izlaz \\
+\verbatiminput{jabuke/jabuke.dummy.out.1} &
+\verbatiminput{jabuke/jabuke.dummy.out.2} \\
+\hline
+\end{tabu}
+\end{center}
+
+{
+\fontsize{10pt}{1em}
+\selectfont
+\textbf{Pojašnjenje prvog primjera:} Najbliža jabuka onoj koja je pala prve godine jest jabuka u polju (1,1). Jabuka koja je pala druge godine je pala u samo polje gdje se nalazi stablo pa je kvadrat udaljenosti jednak 0. Jabuka koja je pala treće godine jednako je udaljena od sva tri postojeća stabla u voćnjaku. \\
+%\textbf{Pojašnjenje drugog primjera:} pojašnjenje pojašnjenje pojašnjenje
+}
