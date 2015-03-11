@@ -30,7 +30,9 @@ _input_
 ```
 
 _output_
-```2```
+```
+2
+```
 
 **Clarification**: the mobsters can be players 2 and 3.
 
@@ -46,7 +48,9 @@ _input_
 ```
 
 _output_
-```1```
+```
+1
+```
 
 **Clarification**: The mobster can be any player, but there cannot be more of them because that would mean that one of them accused the other.
 
@@ -66,4 +70,6 @@ _input_
 ```
 
 _output_
-```4```
+```
+4
+```
