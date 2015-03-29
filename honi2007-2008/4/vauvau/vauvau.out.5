@@ -1,0 +1,3 @@
+both
+none
+none
