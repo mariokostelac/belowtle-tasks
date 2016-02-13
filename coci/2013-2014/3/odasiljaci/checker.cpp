@@ -11,13 +11,13 @@ void close() {
 }
 
 void wa() {
-  printf("×\nWrong answer\n");
+  printf("0.0\n×\nWrong answer\n");
   close();
   exit(0);
 }
 
 void ac() {
-  printf("✓\nCorrect\n");
+  printf("1.0\n✓\nCorrect\n");
   close();
   exit(0);
 }

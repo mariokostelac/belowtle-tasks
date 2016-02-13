@@ -11,19 +11,19 @@ void close() {
 }
 
 void wa() {
-  printf("×\nWrong answer\n");
+  printf("0.0\n×\nWrong answer\n");
   close();
   exit(0);
 }
 
 void ac() {
-  printf("✓\nCorrect\n");
+  printf("1.0\n✓\nCorrect\n");
   close();
   exit(0);
 }
 
 int eq(double a, double b) {
-  if (b - a < EPS || a - b < EPS) return 1;
+  if (b - a <= EPS || a - b <= EPS) return 1;
   return 0;
 }
 
